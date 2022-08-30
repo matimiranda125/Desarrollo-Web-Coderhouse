@@ -1,0 +1,328 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/*Modificacion al fondo del body del index para poner la imagen de fondo*/
+.body {
+    background-color: #A5C9CA;
+    position: relative;
+    padding-bottom: 3em;
+}
+/*Fondo negro de la navbar*/
+/* .divtitulonavbar {
+    background-color: #2C3333; 
+} */
+/*Modificacion al h1 de todas las secciones*/
+/* .titulo {
+    color: black;
+    text-decoration: underline;
+    font-size: 35px;
+    text-align: left;
+    justify-content: left;
+    padding: 15px;
+} */
+/*Modificacion al logo de la navbar de todas las secciones*/
+.logonavbar {
+    font-size: 23px;
+    font-weight: 10px;
+    background-color: #A5C9CA;
+}
+    /* padding: 10px; */
+/*Modificacion al header del index*/
+/* .header { 
+    padding: 10px;
+} */
+/*Modificacion al primer div de todas las secciones*/
+/* .div1 {
+    display: flex; 
+    justify-content: center;
+    display: flexbox;
+    gap: 10px;
+} */
+/*modificacion de la lista del navbar de todas las secciones*/
+/* .lista {
+    list-style: none;
+    display: inline-block;
+    justify-content: center;
+} */
+/*modificacion de la seccion inicio, criptomonedas, blockchain, mineria y sobre mi de la navbar*/
+/* .inicio, .criptomonedas, .blockchain, .mineria, .sobremi {
+    font-size: 25px;
+    display: inline;
+    margin-right: 10px;
+    font-weight: 6px;
+    padding: 2px;
+    border: 2px black solid;
+    border-radius: 6px;
+} */
+/* .colorenlace {
+    color: red;
+} */
+/*Media querie para la navbar*/
+/* @media screen and (max-width: 600px) {
+    .lista {
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+} */
+.navbar {
+    padding: 0%;
+}
+/*modificacion de titulos y parrafos de todas las secciones que contengan titulos y parrafos*/
+.divcripto {
+    display: block;
+}
+/*modificacion a los subtitulos de todas las secciones*/
+.subtitulo {
+    font-size: 25px;
+    display: flex;
+}
+/*modificacion a los parrafos de todas las secciones*/
+.parrafo {
+    font-size: 16px;
+    font-weight: 30px;
+    font-style:inherit;
+    display: flexbox;
+    justify-content: left;
+}
+/*Codigo de prueba para cards con grid*/
+/* .contenedor {
+    display: grid;
+    height: 100vh;
+    width: 1300px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "caja1 caja2 caja3 caja4"    
+    "caja5 caja6 caja7 caja8";
+    gap: 10px;
+    padding: 10px;
+    margin: 20px;
+} */
+/*Media queries para el contenedor de las cajas del index*/
+/* @media screen and (max-width: 480px) {
+    .contenedor {
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+} */
+/* @media screen and (max-width: 600px) {
+    .contenedor {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+} */
+/* @media screen and (max-width: 800px) {
+    .contenedor {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+} */
+/* @media screen and (max-width: 1024px) {
+    .contenedor {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+} */
+/* .caja1, .caja2, .caja3, .caja4, .caja5, .caja6, .caja7, .caja8 {
+    display: flex;
+    background-color: #E7F6F2;
+    border: 4px solid black;
+    text-align: center;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+} */
+/*Color de fondo de todas las cajas del index*/
+.colorenlace__caja {
+    color: black;
+}
+/*Caja 1 y 2 van a enlazarse con la seccion criptomonedas*/
+.caja1 {
+    grid-area: caja1;
+    background-image: url(../Imagenes/bitcoin.jpg);
+    background-repeat: no-repeat;
+    background-size: 350px;
+}
+/*modificacion de los enlaces de cada caja*/
+.text__caja1, .text__caja2, .text__caja3, .text__caja4, .text__caja5, .text__caja6, .text__caja7, .text__caja8 {
+    font-size: 40px;
+    margin-top: 230px;
+}
+.caja2 {
+    grid-area: caja2;
+    background-image: url(../Imagenes/ethereumm.jpg);
+    background-repeat: no-repeat;
+    background-size: 310px;
+}
+/*Caja 3 y 4 van a ir enlazadas a la seccion blockchain*/
+.caja3 {
+    grid-area: caja3;
+    background-image: url(../Imagenes/blockchain.jpg);
+    background-repeat: no-repeat;
+    background-size: 412px;
+}
+.caja4 {
+    grid-area: caja4;
+    background-image: url(../Imagenes/blockchain1.jpg);
+    background-repeat: no-repeat;
+    background-size: 311px;
+}
+/*Caja 5 y 6 van a ir enlazadas a la seccion de mineria*/
+.caja5 {
+    grid-area: caja5;
+    background-image: url(../Imagenes/rig-de-mineria.jpg);
+    background-repeat: no-repeat;
+    background-size: 340px;
+}
+.caja6 {
+    grid-area: caja6;
+    background-image: url(../Imagenes/rig-de-mineria1.jpg);
+    background-repeat: no-repeat;
+    background-size: 340px; 
+}
+/*Caja 7 y 8 van a ir enlazadas a la seccion sobre mi*/
+.caja7 {
+    grid-area: caja7;
+    background-image: url(../Imagenes/contacto.jpg);
+    background-repeat: no-repeat;
+    background-size: 340px;
+}
+.caja8 { 
+    grid-area: caja8;
+    background-image: url(../Imagenes/contacto1.jpg);
+    background-repeat: no-repeat;
+    background-size: 340px;
+}
+/*Intento de media queries para las cards del index*/
+@media screen and (max-width: 600px) {
+    .contenedor, .caja1, .caja2, .caja3, .caja4, .caja5, .caja6, .caja7, .caja8 {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+/*Modificacion del tamaño de las cards del index*/
+.imgcard {
+    max-width: 700px;
+    max-height: 800px;
+}
+/*Div que contiene la imagen de como funciona una blockchain*/
+.funcionamientoBlockchain {
+    text-align: center;
+}
+/*Clase para centrar el titulo de la imagen de como funciona la blockchain*/
+.funcionBlockchain {
+    font-size: 25px;
+    text-align: center;
+  /*   align-items: center; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------*/
+/*Modificacion al footer*/
+.sectionfooter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.footer {
+    display: inline-block;
+    position: absolute;
+    bottom: 100%;
+}
+.divfooter {
+    margin: 30px;
+    margin-top: 30px;
+}
+/*Parrafo del footer que dice contacto*/
+.parrafooter {
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: bold;
+    justify-content: flex-start;
+}
+/*imagen del logo del mail*/
+.logomail {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    position: absolute;
+    bottom: 20%; 
+    left: 7px;
+}
+/*parrafo donde esta mi mail de contacto*/
+.mail {
+    font-size: 17px;
+    display: inline-block;
+    position: absolute;
+    bottom: 16%;
+    left: 7px;
+}
+/*imagen del logo de insta*/
+.logoinsta {
+    height: 20px;
+    width: 20px;
+    display: block;
+    position: absolute;
+    bottom: 12%;
+    left: 7px;
+} 
+/*enlace de mi instagram*/
+.enlaceinsta {
+    font-size: 17px;
+    display: block;
+    position: absolute;
+    bottom: 9%;
+    left: 7px;
+}
+/*imagen del logo de twitter*/
+.logotwitter {
+    height: 20px;
+    width: 20px;
+    display: block;
+    position: absolute;
+    bottom: 5%;
+    left: 7px;
+} 
+/*enlace a mi twitter*/
+.enlacetwitter {
+    font-size: 17px;
+    display: inline-block;
+    position: absolute;
+    bottom: 1%;
+    left: 7px;
+}
+/*derechos de autor*/
+.derechosreser {
+    position: absolute;
+    bottom: 6px;
+    left: 37%;
+    margin-left: 500px;
+}
+
+/* @media screen and (max-height: 480px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+    }
+} */

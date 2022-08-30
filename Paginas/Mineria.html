@@ -1,0 +1,95 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Enlace para conectar bootstrap-->
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <!--Conexión con CSS-->
+    <link rel="stylesheet" href="../CSS/newstyle.css">
+    <title>Mineria</title>
+</head>
+<body class="body">
+<h1 class="titulo"><strong>Blog de Criptomonedas</strong></h1>
+<!-- <div class="divtitulonavbar">
+
+    <h1 class="titulo">Mineria</h1>
+    <header class="header">  
+        <div class="div1">
+    <ol class="lista">
+        <li class="inicio">
+            <a class="colorenlace" href="Index.html">Inicio</a>
+        </li>
+        <li class="criptomonedas">
+            <a class="colorenlace" href="Criptmonedas.html">Criptomonedas</a>
+        </li>
+       <li class="blockchain">
+            <a class="colorenlace" href="Blockchain.html">Blockchain</a>
+       </li>
+       <li class="mineria">
+            <a class="colorenlace" href="Mineria.html">Mineria</a>
+       </li>
+        <li class="sobremi">
+            <a class="colorenlace" href="SobreMi.html">Sobre Mi</a>
+        </li>
+    </ol>      
+    </div>
+</header>
+</div> -->
+<!--Prueba de navbar con bootstrap en todas las secciones-->
+<nav class="nav nav-pills flex-column flex-sm-row">
+  <a class="flex-sm-fill text-sm-center nav-link text-dark" aria-current="page" href="../Index.html">Inicio</a>
+  <a class="flex-sm-fill text-sm-center nav-link text-dark" href="../Paginas/Criptmonedas.html">Criptomonedas</a>
+  <a class="flex-sm-fill text-sm-center nav-link text-dark" href="../Paginas/Blockchain.html">Blockchain</a>
+  <a class="flex-sm-fill text-sm-center nav-link text-dark" href="../Paginas/Mineria.html">Mineria</a>
+  <a class="flex-sm-fill text-sm-center nav-link text-dark" href="../Paginas/SobreMi.html">Sobre Mi</a>
+</nav>
+
+<div class="divcripto">
+    <p class="subtitucripto">¿Que significa minar criptomonedas?</p>
+    <p class="parracripto">Este termino hace referencia al proceso de validar las operaciones que se llevan a cabo mediante 
+    estos activos digitales. Minar criptomonedas supondria resolver los problemas matematicos que se 
+    presentan las criptomonedas, los mineros(Personas que minan las criptomonedas) que llevan a cabo esto
+    son recompensados con criptomonedas<!--Investigar sobre proof of work y proof of stake--></p>
+    <br>
+    <p class="subtitucripto">¿Como se puede minar criptomonedas?</p>
+    <p class="parracripto">Para minar cierta criptomoneda vamos a necesitar 
+    <strong>un hardware especial para minar esa criptomoneda.</strong> 
+    Dependiendo de la criptomoneda, es posible 
+    que necesitemos un <strong>minero ASIC</strong> 
+    (una computadora dedicada a minar determinada criptomoneda) o 
+    una computadora con <strong>una GPU (Tarjeta Grafica) de alto rendimiento.</strong>
+    En algunos casos tambien se puede usar <strong>una CPU (Procesador Central)</strong>
+    <strong>Los mineros basados en GPU pueden extraer efectivamente todo tipo de monedas</strong>
+    siempre que se puedan extraer con tarjetas graficas, pero
+    esta regla no aplica a los mineros ASIC. Por ejemplo, 
+    <strong>las maquinas de mineria ASIC que extraen bitcoin</strong>
+    (Algoritmo SHA256) no se pueden usar para minar minedas Zcash
+    (Algoritmo Equihash). Esto se debe a que las monedas usan algoritmos
+    diferentes. Los mineros que extraen la moneda del algoritmo
+    SHA256 no son buenos para extraer otras criptomonedas. 
+    Esto es importante tenerlo en cuenta antes de realizar 
+    cualquier compra.</p>
+    <br>
+</div>
+
+
+    <!--Seccion del footer-->
+    <footer class="footer">
+        <p class="parrafooter">Contacto</p>
+        <!--Logo de email bien chiquito-->
+        <img class="logomail" src="../Imagenes/Logo-email-pequeño.jpg" alt="mail" height="40px" width="40px" class="logofooter">
+        <p class="mail">mirandamatias092@gmail.com</p>
+        <!--logo de insta bien chiquito-->
+        <img class="logoinsta" src="../Imagenes/Logo-instagram.webp" alt="Logo de instagram" height="40px" width="40p" class="logofooter">
+        <a class="enlaceinsta" href="https://www.instagram.com/mati.miranda02/">Instagram</a>
+    
+        <!--logo de twitter bien chiquito-->
+        <img class="logotwitter" src="../Imagenes/Logo-twitter.jpg" alt="Logo de twitter" height="40px" width="40px" class="logofooter">
+        <a class="enlacetwitter" href="https://twitter.com/matimiranda00">Twitter</a>
+        <p class="derechosreser">Blog de criptmonedas 2022, Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="../JS/bootstrap.bundle.min.js"></script>
+</body>

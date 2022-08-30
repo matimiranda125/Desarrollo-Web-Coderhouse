@@ -1,0 +1,199 @@
+<!DOCTYPE html>   <!--Esta etiqueta le dice al navegador que lenguaje estamos usando-->
+<html lang="es">   <!--lang es lenguaje-->
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Enlace para conectar bootstrap-->
+<link rel="stylesheet" href="../CSS/bootstrap.min.css">
+<!--Fuente Roboto para el texto-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+<!--Fuente Serif PT para titulo--> 
+<link rel="preconectar" href="https://fonts.googleapis.com">
+<link rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
+<link href="https: //fonts.googleapis.com/css2? family= PT+Serif:wght@700 & display=swap" rel="stylesheet">
+<!--Enlace que conecta con CSS-->
+<link rel="stylesheet" href="../CSS/newstyle.css">
+
+
+<title>Blog de Criptomonedas</title>
+</head>
+<body class="body">
+<!-- <h1 class="titulo"><strong>Blog de Criptomonedas</strong></h1> -->
+<!--Prueba de tituli de pagina con logo aplicando bootstrap-->
+    <nav class="navbar bg-light logonavbar">
+        <div class="container-fluid logonavbar">
+            <a class="navbar-brand" href="#">
+                <img src="../Imagenes/logo-editado-canva.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top border-rounded">
+                <span class="logonavbar">Blog de Criptomonedas</span>
+            </a>
+        </div>
+    </nav>
+<!-- <div class="divtitulonavbar"> -->
+
+<!--Enlace a barra de navegación-->
+<!-- <header class="header">
+    <div class="div1">
+        <ul class="lista">
+            <li class="inicio">
+                <a class="colorenlace" href="Index.html" class="inicio">Inicio</a>
+            </li>
+            <li class="criptomonedas">
+                <a class="colorenlace" href="Criptmonedas.html" class="criptmonedas">Criptomonedas</a>
+            </li>
+            <li class="blockchain">
+                <a class="colorenlace" href="Blockchain.html" class="blockchain">Blockchain</a>
+            </li>
+            <li class="mineria">
+                <a class="colorenlace" href="Mineria.html" class="mineria">Mineria</a>
+            </li>
+            <li class="sobremi">
+                <a class="colorenlace" href="Sobre Mi.html" class="sobremi">Sobre Mi</a>
+            </li>
+        </ul>
+    </div>
+</header> -->
+<!-- </div> -->
+<!--Prueba de la navbar con bootstrap--> 
+<nav class="nav nav-pills flex-column flex-sm-row link">
+  <a class="flex-sm-fill text-sm-center nav-link text-dark" aria-current="page" href="./Index.html">Inicio</a>
+  <a class="flex-sm-fill text-sm-center nav-link text-dark" href="./Paginas/Criptmonedas.html">Criptomonedas</a>
+  <a class="flex-sm-fill text-sm-center nav-link text-dark" href="./Paginas/Blockchain.html">Blockchain</a>
+  <a class="flex-sm-fill text-sm-center nav-link text-dark" href="./Paginas/Mineria.html">Mineria</a>
+  <a class="flex-sm-fill text-sm-center nav-link text-dark" href="./Paginas/SobreMi.html">Sobre Mi</a>
+</nav>
+<!--Prueba de cajas con grid con enlaces a las secciones, es algo temporal como para que la de inicio no este vacia.-->
+<!--     <main class="contenedor">
+        <div class="caja1">
+            <strong class="text__caja1"><a class="colorenlace__caja" href="Criptmonedas.html">Bitcoin</a></strong>
+        </div>
+        <div class="caja2">
+            <strong class="text__caja2"><a class="colorenlace__caja" href="Criptmonedas.html">Ethereum</a></strong>
+        </div>
+        <div class="caja3">
+            <strong class="text__caja3"><a class="colorenlace__caja" href="Blockchain.html">Blockchain</a></strong>
+        </div>
+        <div class="caja4">
+            <strong class="text__caja4"><a class="colorenlace__caja" href="Blockchain.html">Blockchain</a></strong>
+        </div>
+        <div class="caja5">
+            <strong class="text__caja5"><a class="colorenlace__caja" href="Mineria.html">Mineria</a></strong>
+        </div>
+        <div class="caja6">
+            <strong class="text__caja6"><a class="colorenlace__caja" href="Mineria.html">Mineria</a></strong>
+        </div>
+        <div class="caja7">
+            <strong class="text__caja7"><a class="colorenlace__caja" href="SobreMi.html">Contacto</a></strong>
+        </div>
+        <div class="caja8">
+            <strong class="text__caja8"><a class="colorenlace__caja" href="SobreMi.html">Contacto</a></strong>
+        </div>
+    </main> -->
+
+<!--Prueba haciendo cards con bootstrap-->
+<!--Seccion de criptomonedas card 1 y 2-->
+<div class="container-fluid row justify-content-sm-around gap-md-4 border-3">
+    <!--Card 1-->
+    <div class="card" style="width: 18rem;">
+        <img class="img-fluid" src="../Imagenes/bitcoin.jpg" class="card-img-top" alt="Imagen de bitcoin">
+        <div class="card-body">
+            <h5 class="card-title">Bitcoin</h5>
+            <p class="card-text">Una criptomoneda es un activo digital que emplea un cifrado criptografico para garantizar su titularidad y asegurar la integr...</p>
+            <a href="Criptmonedas.html" class="btn btn-primary">Ir a sección...</a>
+        </div>
+        <!--Card 2-->
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img class="img-fluid" src="../Imagenes/Ethereum.jpg" class="card-img-top" alt="Imagen de Ethereum">
+        <div class="card-body">
+            <h5 class="card-title">Ethereum</h5>
+            <p class="card-text">Las criptomonedas cuentan con diversas características diferenciadoras respecto a los sistemas tradicionales: no esta...</p>
+            <a href="Criptmonedas.html" class="btn btn-primary">Ir a sección...</a>
+        </div>
+        <!--Seccion de blockchain card 3 y 4-->
+        <!--Card 3-->
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img class="img-fluid" src="../Imagenes/blockchain.jpg" class="card-img-top" alt="Blockchain">
+        <div class="card-body">
+            <h5 class="card-title">Blockchain</h5>
+            <p class="card-text">La blockchain, tambien llamada cadena de bloques es un libro de contabilidad digital distribuido que almacena dat...</p>
+            <a href="Blockchain.html" class="btn btn-primary">Ir a sección...</a>
+        </div>
+    </div>
+    <!--Card 4-->
+    <div class="card" style="width: 18rem;">
+        <img class="img-fluid" src="../Imagenes/blockchain1.jpg" class="card-img-top" alt="Blockchain">
+    <div class="card-body">
+        <h5 class="card-title">Blockchain</h5>
+        <p class="card-text">Como su nombre lo indica "blockchain" es una cadena de bloques, los cuales tienen informacion codificada de una...</p>
+        <a href="Blockchain.html" class="btn btn-primary">Ir a sección...</a>
+    </div>
+    <!--Seccion de mineria card 5 y 6-->
+    <!--Card 5-->
+</div>
+<div class="card" style="width: 18rem;">
+    <img class="img-fluid" src="../Imagenes/rig-de-mineria.jpg" class="card-img-top" alt="Mineria">
+    <div class="card-body">
+        <h5 class="card-title">Mineria</h5>
+        <p class="card-text">Este termino hace referencia al proceso de validar las operaciones que se llevan a cabo mediante estos activos...</p>
+        <a href="Mineria.html" class="btn btn-primary">Ir a sección...</a>
+    </div>
+    <!--Card 6-->
+</div>
+<div class="card" style="width: 18rem;">
+    <img class="img-fluid" src="../Imagenes/rig-de-mineria1.jpg" class="card-img-top" alt="Mineria">
+    <div class="card-body">
+        <h5 class="card-title">Mineria</h5>
+        <p class="card-text">Para minar cierta criptomoneda vamos a necesitar un hardware especial para minar esa criptomoneda. Dependiendo d...</p>
+        <a href="Mineria.html" class="btn btn-primary">Ir a sección...</a>
+    </div>
+    <!--Seccion de sobre mi card 7 y 8-->
+    <!--Card 7-->
+</div>
+<div class="card" style="width: 18rem;">
+    <img class="img-fluid" src="../Imagenes/contacto.jpg" class="card-img-top" alt="Contacto">
+    <div class="card-body">
+        <h5 class="card-title">Sobre Mi</h5>
+        <p class="card-text">Soy Matias un chico de San Luis, Capital. Desde chico me interesó mucho la tecnologia, las computadoras y los telefonos...</p>
+        <a href="SobreMi.html" class="btn btn-primary">Ir a sección...</a>
+    </div>
+    <!--Card 8-->
+</div>
+<div class="card" style="width: 18rem;">
+    <img class="img-fluid" src="../Imagenes/contacto1.jpg" class="card-img-top" alt="Contacto">
+    <div class="card-body">
+        <h5 class="card-title">Sobre Mi</h5>
+        <p class="card-text">Comencé en el mundo de la programación desde chico pero no habia terminado de hacer el clic para realmente interesarm...</p>
+        <a href="SobreMi.html" class="btn btn-primary">Ir a sección...</a>
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!--tendria que poner un formulario para que el usuario se registre y diga que otros temas/secciones le interesaria leer en el blog-->
+<footer class="footer">
+<p class="parrafooter">Contacto</p>
+<!--Logo de email bien chiquito-->
+<img class="logomail" src="../Imagenes/Logo-email-pequeño.jpg" alt="mail" height="40px" width="40px" class="logofooter">
+<p class="mail">mirandamatias092@gmail.com</p>
+<!--logo de insta bien chiquito-->
+<img class="logoinsta" src="../Imagenes/Logo-instagram.webp" alt="Logo de instagram" height="40px" width="40p" class="logofooter">
+<a class="enlaceinsta" href="https://www.instagram.com/mati.miranda02/" rel="noopener noreferrer" target="_blank">Instagram</a>
+<!--logo de twitter bien chiquito-->
+<img class="logotwitter" src="../Imagenes/Logo-twitter.jpg" alt="Logo de twitter" height="40px" width="40px" class="logofooter">
+<a class="enlacetwitter" href="https://twitter.com/matimiranda00" rel="noopener noreferrer" target="_blank">Twitter</a>
+<p class="derechosreser">Blog de criptmonedas 2022, Todos los derechos reservados.</p>
+</footer>
+
+<script src="../JS/bootstrap.bundle.min.js"></script>
+</body>
+
+
+</html>

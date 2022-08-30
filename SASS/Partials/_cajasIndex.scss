@@ -1,0 +1,52 @@
+.colorenlace__caja {
+    color: $colorenlace;
+}
+.caja1, .caja2 {
+    background-repeat: no-repeat;
+    background-size: 350px;
+}
+.caja1 {
+    grid-area: caja1;
+    background-image: url(../Imagenes/bitcoin.jpg);
+}
+.caja2 {
+    grid-area: caja2;
+    background-image: url(../Imagenes/ethereumm.jpg);
+}
+.caja3, .caja4 {
+    background-repeat: no-repeat;
+}
+.caja3 {
+    grid-area: caja3;
+    background-image: url(../Imagenes/blockchain.jpg);
+    background-size: 412px;
+}
+.caja4 {
+    grid-area: caja4;
+    background-image: url(../Imagenes/blockchain1.jpg);
+    background-size: 311px;
+}
+.caja5,.caja6 {
+    background-repeat: no-repeat;
+    background-size: 340px;
+}
+.caja5 {
+    grid-area: caja5;
+    background-image: url(../Imagenes/rig-de-mineria.jpg);
+}
+.caja6 {
+    grid-area: caja6;
+    background-image: url(../Imagenes/rig-de-mineria1.jpg);
+}
+.caja7, .caja8 {
+    background-repeat: no-repeat;
+    background-size: 340px;
+}
+.caja7 {
+    grid-area: caja7;
+    background-image: url(../Imagenes/contacto.jpg);
+}
+.caja8 {
+    grid-area: caja8;
+    background-image: url(../Imagenes/contacto1.jpg);
+}
