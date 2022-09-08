@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../CSS/bootstrap.min.css">
     <!--Conexion con CSS-->
     <link rel="stylesheet" href="../CSS/newstyle.css">
-    <title>Criptomonedas</title>
+    <title>Criptomonedas | Criptmonedas</title>
 </head>
 <body class="body">
 <h1 class="titulo"><strong>Blog de Criptomonedas</strong></h1>
@@ -39,10 +39,10 @@
 <!--Prueba de navbar con bootstrap en todas las secciones-->
 <nav class="nav nav-pills flex-column flex-sm-row">
   <a class="flex-sm-fill text-sm-center nav-link text-dark" aria-current="page" href="../Index.html">Inicio</a>
-  <a class="flex-sm-fill text-sm-center nav-link text-dark" href="../Paginas/Criptmonedas.html">Criptomonedas</a>
-  <a class="flex-sm-fill text-sm-center nav-link text-dark" href="../Paginas/Blockchain.html">Blockchain</a>
-  <a class="flex-sm-fill text-sm-center nav-link text-dark" href="../Paginas/Mineria.html">Mineria</a>
-  <a class="flex-sm-fill text-sm-center nav-link text-dark" href="../Paginas/SobreMi.html">Sobre Mi</a>
+  <a class="flex-sm-fill text-sm-center nav-link text-dark" href="Criptmonedas.html">Criptomonedas</a>
+  <a class="flex-sm-fill text-sm-center nav-link text-dark" href="Blockchain.html">Blockchain</a>
+  <a class="flex-sm-fill text-sm-center nav-link text-dark" href="Mineria.html">Mineria</a>
+  <a class="flex-sm-fill text-sm-center nav-link text-dark" href="SobreMi.html">Sobre Mi</a>
 </nav>
     
     <div class="divcripto">
@@ -81,6 +81,9 @@
     <p class="subtitulo">¿Que es una wallet digital?</p>
     <p class="parrafo">Una wallet es un programa de software o hardware que contiene claves publicas y privadas que son unicas para el propietario del monedero en particular. Estos monederos permiten interacturar con las <strong>cadenas de bloques</strong>, lo que permite no solo realizar compras y transacciones de criptmonedas como <strong>bitcoin y ethereum</strong>, sino tambien controlar el saldo.</p>
     <br>
+    <div class="imgparrafo">
+        <img src="../Imagenes/wallet-digital.jpg" alt="Wallet digital" height="350px" width="500px">
+    </div>
     <p class="subtitulo">¿Como funciona una wallet digital?</p>
     <p class="parrafo"> Es importante entender que esta no almacena realmente ninguna criptomoneda, simplemente guarda 
     las claves para poder llevar a cabo las transacciones criptográficos. Las criptomonedas como tal
@@ -93,6 +96,10 @@
     <br>
     <p class="subtitulo">¿Cuales son las categorias de las wallets?</p>
     <p class="parrafo"> Existen 2 categorias que abarcan los tipos de wallets de criptomonedas que hay en el mercado. Estos son conocidos como <strong>Hot wallet y Cold wallet.</strong> Es importante analizar que tipo de monedero nos conviene segun nuestras necesidades.</p>
+     <div class="imgparrafo">
+        <img src="../Imagenes/cold-wallet-vs-hot-wallet.webp" alt="Cold wallet vs Hot wallet" height="350px" width="500px">
+    </div>
+    <br>
     <p class="parrafo"><strong>Hot Wallet: </strong> Las <strong>billeteras calientes son las que se encuentran en linea (software)</strong> y se puede acceder a ellas siempre que se tenga acceso a internet desde cualquier navegador o aplicacion. <strong>Son utiles si realizas transacciones con frecuencia</strong>, sin embargo, al ser online la custodia de las claves privadas esta en manos de terceros.</p>
     <p class="parrafo"><strong>Cold wallet: </strong> La principal diferencia con las hot wallets es que este tipo de monederos <strong>almacena las monedas digitales fuera de la red</strong> (hardware), por lo tanto se necesita algun soporte fisico para acceder a ellas, ya sea un ordenador, un USB, o un codigo QR. Esto brinda una mayor seguridad a los usuarios ya que <strong>evita el riesgo de hackeo.</strong> Las cold wallets mas conocidas son Ledger y Trezor.</p>
     <br>
@@ -102,29 +109,60 @@
     <p class="subtitulo">¿Como encuentran el hash objetivo los criptomineros?</p>
     <p class="parrafo"><strong>El hash de destino</strong> es un valor numérico decidido por la red después de cada 2016 bloques. El objetivo es mantener la <strong>dificultad de minería</strong> de modo que se extraiga un bloque cada 10 minutos en promedio. s el valor al que se dirige un encabezado de bloque hash. Los encabezados de bloque son cadenas de datos de 80 bytes que actúan como ID de <strong>bloques individuales.</strong> Contiene información específica de un bloque, como el número de versión de bitcoin, el hash del bloque anterior, la marca de tiempo, etc. El proceso de minar criptomonedas no es más que ejecutar <strong>algoritmos</strong> para reducir los encabezados de los bloques a un valor inferior al objetivo. Y el primero en hacerlo gana la recompensa del bloque. En la actualidad para minar una criptomoneda se necesita tener maquinas especificas con alta capacidad de procesamiento para poder obtener la recompensa del bloque.</p>
     <br>
-    
+    <p class="subtitulo">¿Que es un protocolo de concenso?</p>
+    <p class="parrafo">Un protocolo de concenso es el mecanismo que regula la forma en la que los nodos que sellan bloques llegan a un acuerdo entre si para poder hacerlo (e incorporar ese bloque a la cadena)</p>
+    <p class="subtitulo"><strong>Tipos de prueba de consenso</strong></p>
+    <p class="parrafo">Los tipos de prueba son: Preba de trabajo, Prueba de participacion, Prueba de quemado, Prueba de capacidad y Prueba de tiempo transcurrido.</p>
+    <p class="parrafo"> <strong>Prueba de trabajo: </strong> La prueba de trabajo es el método utilizado por Bitcoin para mantener segura la cadena de bloques y las transacciones de la red. Cada vez que un bloque nuevo tiene que ser minado, como explicamos con anterioridad, la red le solicita a los mineros que "gasten" cierto <strong>poder de cómputo</strong> (y energía eléctrica) para validarlo. Este método garantiza que si algún agente malicioso intenta reescribir toda la cadena de bloques desde cero, para cambiar el historial de transacciones tendría que <strong>volver a minar todos los bloques </strong> desde el inicio del cambio.</p>
+    <div class="imgparrafo">
+        <img src="../Imagenes/proof-of-work.jpg" alt="Proof of proof of work" height="350px" width="500px">
+    </div>
+    <br>
+    <p class="parrafo"><strong>Prueba de participacion: </strong> Un algoritmo de prueba de participacion, tambien conocida por sus siglas <strong>PoS</strong> (del ingles Proof of Stake) es un protocolo de consenso distribuido que asegura en una red de una criptomoneda la posesión de dichas monedas. Con PoS la probabilidad de encontrar un bloque de transacciones y recibir el premio correspondiente es directamente proporcional a la cantidad de monedas que uno tiene apostadas, evitando así que la confianza venga dada por la cantidad de trabajo invertido. Es un sistema diferente a la prueba de trabajo usada en la minería de criptodivisas como el bitcóin o el éter. Se basa en la suposición de que quienes poseen más unidades de una moneda basada en PoS están especialmente interesados en la supervivencia y el buen funcionamiento de la red que otorga valor a dichas monedas y por tanto son ellos los más indicados para cargar con la responsabilidad de proteger al sistema de posibles ataques. Es por eso que el protocolo los premia con una menor dificultad para encontrar bloques (es inversamente proporcional al número de monedas que demuestren poseer).</p>
+     <div class="imgparrafo">
+        <img src="../Imagenes/Proof-of-stake.webp" alt="Proof of stake" height="350px" width="500px">
+    </div>
+    <br>
+    <p class="parrafo"><strong>Prueba de quemado: </strong> (proof of burn) Los mineros obtienen la posibilidad de minar un bloque al <strong>"quemar" una parte de algún token</strong> (así sea el nativo de la red cripto que se disponen a minar, o uno alternativo) que tengan en su poder.</p>
+     <div class="imgparrafo">
+        <img src="../Imagenes/proof-of-burn.jpeg" alt="Proof of burn" height="350px" width="500px">
+    </div>
+    <br>
+    <p class="parrafo"><strong>Prueba de capacidad: </strong> (proof of capacity) Permite que los dispositivos de minado utilicen el <strong>espacio disponible en sus discos duros</strong> para minar criptomonedas. También se juega a través de un "sorteo", pero en este caso cuanto más espacio en el HD tenga disponible un nodo, mayor es la probabilidad de ser designado para minar el siguiente bloque.</p>
+     <div class="imgparrafo">
+        <img src="../Imagenes/proof-of-capacity.webp" alt="Proof of capacity" height="350px" width="500px">
+    </div>
+    <br>
+    <p class="parrafo"><strong>Prueba de tiempo transcurrido: </strong> (proof of elapsed time) Es una de los más experimentales. Está diseñado para ser escalable y fue pensado <strong>para blockchains privadas. </strong> Por eso es difícil que sea implementado en una criptomoneda con blockchains públicas, como Bitcoin.</p>
+     <div class="imgparrafo">
+        <img src="../Imagenes/Proof-of-elapsed-time.jpg" alt="Proof of elapsed time" height="350px" width="500px">
+    </div>
+    <br>
+
+
+
 </div>
 
     <!--Seccion del footer-->
-  <!--   <div class="divfooter"> -->
 <section class="sectionfooter">
-
     <footer class="footer">
         <p class="parrafooter">Contacto</p>
             <!--Logo de email bien chiquito-->
-            <img class="logomail" src="../Imagenes/Logo-email-pequeño.jpg" alt="mail" height="40px" width="40px" class="logofooter">
-            <p class="mail">mirandamatias092@gmail.com</p>
+            <div class="divmail">
+            <img class="logomail logofooter" src="/Imagenes/email.svg" alt="mail" height="20px" width="20px">
+            <p class="mail">mirandamatias092@gmail.com</p></div>
             <!--logo de insta bien chiquito-->
-            <img class="logoinsta" src="../Imagenes/Logo-instagram.webp" alt="Logo de instagram" height="40px" width="40p" class="logofooter">
+            <img class="logoinsta logofooter" src="/Imagenes/instagram.svg" alt="Logo de instagram" height="20px" width="20p">
             <a class="enlaceinsta" href="https://www.instagram.com/mati.miranda02/">Instagram</a>
-            
+            <br>
             <!--logo de twitter bien chiquito-->
-            <img class="logotwitter" src="../Imagenes/Logo-twitter.jpg" alt="Logo de twitter" height="40px" width="40px" class="logofooter">
+            <img class="logotwitter logofooter" src="/Imagenes/twitter.svg" alt="Logo de twitter" height="20px" width="20px">
             <a class="enlacetwitter" href="https://twitter.com/matimiranda00">Twitter</a>
+            <br>
             <p class="derechosreser">Blog de criptmonedas 2022, Todos los derechos reservados.</p>
         </footer>
 </section>
-   <!--  </div> -->
 
    <script src="../JS/bootstrap.bundle.min.js"></script>
 </body>
+</html>
