@@ -1,6 +1,9 @@
-@import "/SASS/Partials/variables";
-@import "/SASS/Partials/reset";
-@import "/SASS/Partials/logonavbar";
-@import "/SASS/Partials/cajasIndex";
-@import "/SASS/Partials/bodyindex";
-@import "/SASS/Partials/footer"
+@import "./Partials/variables";
+@import "./SASS/Partials/reset";
+@import "./SASS/Partials/logonavbar";
+@import "../SASS/Partials/navbar";
+@import "./SASS/Partials/cajasIndex";
+@import "./SASS/Partials/bodyindex";
+@import "./Partials/mediaqueriecards";
+@import "./Partials/parteblockchain";
+@import "./SASS/Partials/footer";

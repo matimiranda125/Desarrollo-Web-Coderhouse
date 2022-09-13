@@ -1,0 +1,27 @@
+.footer {
+    background-color: $fondofooter;
+    margin: 30px black;
+}
+/*Parrafo del footer que dice contacto*/
+.parrafooter {
+    color: white;
+    text-decoration: underline;
+}
+/*imagen del logo del mail*/
+.logomail,
+.logoinsta,
+.logotwitter {
+    padding: 3px;
+    background-color: white;
+}
+/*parrafo donde esta mi mail de contacto*/
+.mail,
+.enlaceinsta,
+.enlacetwitter {
+    color: white;
+}
+/*derechos de autor*/
+.derechosreser {
+    color: white;
+    text-align: center;
+}

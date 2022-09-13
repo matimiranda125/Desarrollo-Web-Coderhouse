@@ -1,0 +1,23 @@
+.navbar {
+    padding: 0%;
+}
+
+/*modificacion de titulos y parrafos de todas las secciones que contengan titulos y parrafos*/
+.divcripto {
+    display: block;
+}
+
+/*modificacion a los subtitulos de todas las secciones*/
+.subtitulo {
+    font-size: 25px;
+    display: flex;
+}
+
+/*modificacion a los parrafos de todas las secciones*/
+.parrafo {
+    font-size: 16px;
+    font-weight: 30px;
+    font-style: inherit;
+    display: flexbox;
+    justify-content: left;
+}
