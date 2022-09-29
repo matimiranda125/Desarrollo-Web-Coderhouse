@@ -1,0 +1,115 @@
+.footer {
+    background: linear-gradient(to bottom, rgb(50,50,50), rgb(20,20,20));
+    transition: background-color .2s;
+    margin: 30px black;
+    display: block;
+    
+    
+}
+/*Parrafo del footer que dice contacto*/
+.parrafooter {
+    color: white;
+    text-decoration: underline;
+    margin-top: 60px;
+    font-size: 30px;
+}
+/*imagen del logo del mail*/
+.logomail,
+.logoinsta,
+.logotwitter {
+    padding:3px;
+    background-color: white;
+    margin: 20px;
+    /* background-color: aquamarine; */
+}
+
+.enlaceinsta:hover {
+    background-color: rgb(30, 30, 30);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.enlacetwitter:hover {
+    background-color: rgb(30, 30, 30);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.listafooter {
+    list-style: none;
+}
+.logofooter {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.logomail, .mail {
+  align-items: center;
+  text-align:left;
+  display: inline-block;
+}
+/*parrafo donde esta mi mail de contacto*/
+.mail,
+.enlaceinsta,
+.enlacetwitter {
+    color: white;
+}
+.enlaceinsta {
+
+}
+.logoenlacemail, .logoenlaceinsta, .logoenlacetwitter {
+    display: block;
+}
+/*derechos de autor*/
+.derechosreser {
+    color: white;
+    text-align: center;
+    padding-bottom: 0px;
+    position: relative;
+    top: 410px;
+}
+/*Modificacion al formulario del footer*/
+.formulario {
+    text-align:right;
+    padding-top: 20px;
+    padding-bottom: 70px;
+    padding-right: 80px;
+}
+/* .formularioo {
+    display: flex;
+    align-items: ;
+} */
+.parraformu {
+    color: white;
+    text-align: right;
+}
+.nombre {
+    padding-right: 65px;
+}
+.correo {
+    padding-right: 31px;
+}
+.nombre, .correo, .temas {
+    margin: 2px;
+}
+.botton {
+    margin: 15px;
+    text-align:center;
+    /*padding-right: 50px;*/
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.botton:hover {
+    background-color: rgb(130, 140, 150);
+}

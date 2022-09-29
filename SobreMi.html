@@ -1,0 +1,95 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Enlace para conectar bootstrap-->
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
+    <!--Conexion con CSS-->
+    <link rel="stylesheet" href="../SASS/estilo.scss">
+    <!--Enlace que conecta con CSS solamente para el footer-->
+<link rel="stylesheet" href="../CSS/newstyle.css"> 
+
+    <title>Blog de criptmonedas | Sobre mi</title>
+</head>
+<body class="body">
+<h1 class="titulo"><strong>Blog de Criptomonedas</strong></h1>
+<!--     <div class="divtitulonavbar">
+    <h1 class="titulo">Sobre Mi</h1>
+        <header class="header">
+    <div class="div1">
+    <ol class="lista">
+        <li class="inicio">
+            <a class="colorenlace" href="Index.html">Inicio</a>
+        </li>
+        <li class="criptomonedas">
+            <a class="colorenlace" href="Criptmonedas.html">Criptomonedas</a>
+        </li>
+       <li class="blockchain">
+            <a class="colorenlace" href="Blockchain.html">Blockchain</a>
+        </li>
+        <li class="mineria">
+            <a class="colorenlace" href="Mineria.html">Mineria</a>
+       </li>
+        <li class="sobremi">
+            <a class="colorenlace" href="SobreMi.html">Sobre Mi</a>
+        </li>
+    </ol>      
+</div>
+</header>
+</div> -->
+<!--Prueba de navbar con bootstrap en todas las secciones-->
+<nav class="nav nav-pills flex-column flex-sm-row">
+  <a class="flex-sm-fill text-sm-center nav-link text-dark" aria-current="page" href="../Index.html">Inicio</a>
+  <a class="flex-sm-fill text-sm-center nav-link text-dark" href="Criptmonedas.html">Criptomonedas</a>
+  <a class="flex-sm-fill text-sm-center nav-link text-dark" href="Blockchain.html">Blockchain</a>
+  <a class="flex-sm-fill text-sm-center nav-link text-dark" href="Mineria.html">Mineria</a>
+  <a class="flex-sm-fill text-sm-center nav-link text-dark" href="SobreMi.html">Sobre Mi</a>
+</nav>
+
+<!--Seccion sobre mi-->
+<div class="divcripto">
+
+    <p class="subtitulo">¿Quien soy?</p>
+    <p class="parrafo">Soy Matias un chico de San Luis, Capital. Desde chico me interesó mucho la tecnologia, las computadoras y los telefonos. </p>
+    <p class="subtitulo">¿Como empecé con la programación?</p>
+    <p class="parrafo">Comencé en el mundo de la programación desde chico pero no habia terminado de hacer el clic para realmente interesarme por aprender y practicar diariamente, ya que estudiaba en los periodos en los que estaba motivado, luego de unos dias que se iba la motivación dejaba de aprender, y no podia terminar de adquirir los conocimientos. Pero en un momento tomé la decisión de realmente buscar aprender y trabajar en un futuro de esto. Fue en ese momento en que tuve la oportunidad de comprarme un curso de Coderhouse sobre Desarrollo Web.</p>
+</div>
+
+
+<!--Seccion del footer-->
+<section class="sectionfooter">
+    <footer class="footer">
+        <p class="parrafooter">Contacto</p>
+            <!--Logo de email bien chiquito-->
+            <div class="divmail">
+            <img class="logomail logofooter" src="/Imagenes/email.svg" alt="mail" height="25px" width="25px">
+            <p class="mail">mirandamatias092@gmail.com</p></div>
+            <!--logo de insta bien chiquito-->
+            <img class="logoinsta logofooter" src="/Imagenes/instagram.svg" alt="Logo de instagram" height="25px" width="25px">
+            <a class="enlaceinsta" href="https://www.instagram.com/mati.miranda02/">Instagram</a>
+            <br>
+            <!--logo de twitter bien chiquito-->
+            <img class="logotwitter logofooter" src="/Imagenes/twitter.svg" alt="Logo de twitter" height="25px" width="25px">
+            <a class="enlacetwitter" href="https://twitter.com/matimiranda00">Twitter</a>
+            <br>
+            <p class="derechosreser">Blog de criptmonedas 2022, Todos los derechos reservados.</p>
+            <form action="https://formspree.io/f/mpznqnar" method="post">
+                <section class="formulario">
+                    <p class="parraformu nombre">Nombre</p>
+                    <input type="text" name="Nombre" id="Nombre" placeholder="Ingrese su nombre">
+                    <p class="parraformu correo">Correo Electronico</p>
+                    <input type="email" name="correo" id="correo" placeholder="Correo Electronico">
+                    <p class="parraformu temas">Temas nuevos para el blog</p>
+                    <input type="text" name="Tema" id="Tema" placeholder="Temas para añadir">
+                    <br>
+                    <input class="botton" type="button" value="Enviar">
+                </section>
+            </form>
+        </footer>
+</section>
+
+<script src="../JS/bootstrap.bundle.min.js"></script>
+</body>
+</html>
