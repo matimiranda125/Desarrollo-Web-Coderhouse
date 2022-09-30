@@ -1,0 +1,65 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(to bottom, rgb(50,50,50), rgb(20,20,20));
+    transition: background-color .2s;
+    padding: 70px;
+    justify-content: space-around;
+}
+.footer__contacto{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding-left: 20px;
+}
+.footer__titulo{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+.footer__contacto a{
+    color: #fff;
+    text-decoration: none;
+    padding-left: 12px;
+}
+.enlaceinsta, .enlacetwitter {
+    color: white;
+}
+.enlaceinsta:hover {
+    background-color: rgb(30, 30, 30);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.enlacetwitter:hover {
+    background-color: rgb(30, 30, 30);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+
+.footer__form form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: -160px;
+
+}
+form .footer__enviar{
+    width: 70px;
+    align-self: center;
+}
+.derechosreservados{
+    position: absolute;
+    /*justify-content: baseline;¨ n*/ 
+    margin-top: 190px;
+    text-transform: uppercase;
+    color: white;
+}

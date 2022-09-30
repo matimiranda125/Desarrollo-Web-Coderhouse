@@ -1,11 +1,12 @@
 .footer {
-    background-color: $fondofooter;
+    background-color: $fondofooter; 
     margin: 30px black;
 }
 /*Parrafo del footer que dice contacto*/
 .parrafooter {
     color: white;
     text-decoration: underline;
+    font-size: 30px;
 }
 /*imagen del logo del mail*/
 .logomail,
@@ -19,6 +20,7 @@
 .enlaceinsta,
 .enlacetwitter {
     color: white;
+    padding: 20px;
 }
 /*derechos de autor*/
 .derechosreser {

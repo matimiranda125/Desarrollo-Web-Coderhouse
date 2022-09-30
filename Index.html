@@ -23,7 +23,7 @@
 <!--Enlace que conecta con CSS de SASS-->
 <link rel="stylesheet" href="./SASS/estilo.scss">
 <!--Enlace que conecta con CSS solamente para el footer-->
-<link rel="stylesheet" href="../CSS/newstyle.css"> 
+<link rel="stylesheet" href="./CSS/newstyle.css"> 
 
 <title>Blog de Criptomonedas | Inicio</title>
 </head>
@@ -128,47 +128,37 @@
 </div> 
 
 
-
-
-
-
 <br>
 <br>
 <br>
 <br>
-<!--tendria que poner un formulario para que el usuario se registre y diga que otros temas/secciones le interesaria leer en el blog-->
 
-   <section1 class="sectionfooter">
-    <footer class="footer">
-        <p class="parrafooter">Contacto</p>
-            <!--Logo de email bien chiquito-->
-            <div class="divmail">
-            <img class="logomail logofooter" src="/Imagenes/email.svg" alt="mail" height="25px" width="25px">
-            <p class="mail">mirandamatias092@gmail.com</p></div>
-            <!--logo de insta bien chiquito-->
-            <img class="logoinsta logofooter" src="/Imagenes/instagram.svg" alt="Logo de instagram" height="25px" width="25p">
-            <a class="enlaceinsta" href="https://www.instagram.com/mati.miranda02/">Instagram</a>
-            <br>
-            <!--logo de twitter bien chiquito-->
-            <img class="logotwitter logofooter" src="/Imagenes/twitter.svg" alt="Logo de twitter" height="25px" width="25px">
-            <a class="enlacetwitter" href="https://twitter.com/matimiranda00">Twitter</a>
-            <br>
-            <p class="derechosreser">Blog de criptmonedas 2022, Todos los derechos reservados.</p>
-            <form action="https://formspree.io/f/mpznqnar" method="post">
-                <section class="formulario">
-                    <p class="parraformu">Nombre</p>
-                    <input type="text" name="Nombre" id="Nombre" placeholder="Ingrese su nombre">
-                    <p class="parraformu">Correo Electronico</p>
-                    <input type="email" name="correo" id="correo" placeholder="Correo Electronico">
-                    <p class="parraformu">Temas nuevos para agregar al blog</p>
-                    <input type="text" name="Tema" id="Tema" placeholder="Temas para añadir">
-                    <br>
-                    <input class="botton" type="button" value="Enviar">
-                </section>
-            </form>
-        </footer>
-</section1
+<footer>
+    <div class="footer__contacto">
+        <div class="footer__titulo">Contacto</div>
+        <div>
+            <img src="/Imagenes/email.svg" alt="Logo de mail">
+            <a href="#">matimiranda092@gmail.com</a>
+        </div>
+        <div>
+            <img src="/Imagenes/instagram.svg" alt="Logo de instagram">
+            <a href="https://www.instagram.com/mati.miranda02/">Instagram</a></div>
+        <div>
+            <img src="/Imagenes/twitter.svg" alt="Logo de twitter">
+            <a href="https://twitter.com/matimiranda00">Twitter</a>
+        </div>
+    </div>
+    <div class="footer__form">
+        <form>
+            <input type="text" name="Nombre" placeholder="Nombre" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="text" placeholder="Lo que quieras!">
+            <input class="footer__enviar" type="submit">
 
+        </form>
+    </div>
+    <div class="derechosreservados">Blog de criptmonedas 2022, Todos los derechos reservados.</div>
+</footer>
 
  
 
